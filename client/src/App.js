@@ -1,10 +1,14 @@
 import React from 'react'
+import SigninBtn from './components/authBtn/SigninBtn'
+import SignoutBtn from './components/authBtn/SignoutBtn'
 
 const App = () => {
   return (
-    <div>
+    <>
       <h1>JS Remote</h1>
-    </div>
+      <SigninBtn />
+      <SignoutBtn />
+    </>
   )
 }
 
