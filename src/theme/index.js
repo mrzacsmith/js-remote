@@ -3,6 +3,7 @@ const theme = {
   bodyColor: '#f1faee',
   hoverBorder: '#e63946',
   hoverBg: '#1d3557',
+  white: 'white',
 }
 
 export default theme

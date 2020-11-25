@@ -47,7 +47,7 @@ const StyledDiv = styled.div`
 
 const LoadingDiv = styled.div`
   width: 200px;
-  height: 90vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
