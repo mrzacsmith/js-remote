@@ -51,4 +51,6 @@ const LoadingDiv = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
+  font-size: 2.6rem;
 `
