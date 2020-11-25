@@ -5,7 +5,7 @@ import { ThemeProvider } from 'styled-components'
 import './index.css'
 import App from './App'
 
-import theme from './theme'
+import theme from './theme/index.js'
 
 const domain = process.env.REACT_APP_AUTH0_DOMAIN
 const clientId = process.env.REACT_APP_AUTH0_CLIENT_ID
