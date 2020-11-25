@@ -4,6 +4,7 @@ import axios from 'axios'
 import Navbar from './components/Navbar'
 import styled from 'styled-components'
 import Jobs from './components/Jobs'
+import Footer from './components/Footer'
 
 const App = () => {
   const { isLoading, isAuthenticated } = useAuth0()
@@ -28,6 +29,7 @@ const App = () => {
       <div className='container'>
         <Jobs jobs={jobs} />
       </div>
+      <Footer />
     </StyledDiv>
   )
 }
