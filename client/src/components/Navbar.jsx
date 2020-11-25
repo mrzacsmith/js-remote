@@ -8,6 +8,22 @@ const StyledNav = styled.div`
   align-items: center;
   height: 8vh;
   background: ${(pr) => pr.theme.navColor};
+  p {
+    font-size: 1.2rem;
+    color: white;
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  p:hover {
+    color: ${(pr) => pr.theme.bodyColor};
+    background: #1d3557;
+    border: 1px solid #e63946;
+    border-radius: 6px;
+  }
   div {
     width: 40%;
     display: flex;
@@ -16,6 +32,7 @@ const StyledNav = styled.div`
   }
   img {
     width: 48px;
+    height: 48px;
   }
   h2 {
     margin-left: 2rem;
