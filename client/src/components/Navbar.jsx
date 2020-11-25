@@ -6,6 +6,8 @@ const StyledNav = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 8vh;
+  background: ${(pr) => pr.theme.navColor};
   div {
     width: 40%;
     display: flex;
