@@ -7,7 +7,7 @@ import Jobs from './components/Jobs'
 import Footer from './components/Footer'
 
 const App = () => {
-  const { isLoading, isAuthenticated } = useAuth0()
+  const { isLoading } = useAuth0()
   const [jobs, setJobs] = useState([])
 
   useEffect(() => {
